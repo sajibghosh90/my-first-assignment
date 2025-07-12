@@ -1,0 +1,483 @@
+.nav h2{
+    
+    font-family:'inter', sans-serif;
+    color:#4E47FF;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 151px;
+    margin-top: 51px;
+    margin-bottom: 0px;
+    
+}
+.btn1{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 35px;
+    margin: 10px;
+}
+
+/* button general design  btn */
+button{
+      color: white;
+      background-color: #4E47FF;
+      border: none;
+      border-radius: 5px;
+      font-family: 'raleway', sans-serif;
+}
+body{
+   background-image: url(../Assets/Hero-bg.png);
+   background-repeat: no-repeat;
+   background-size:contain;
+   background-color: #f5f8ff;
+}
+
+
+button:hover{
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+}
+.nav2{
+    /* margin:309px 268px 200px 268px  ; */
+  
+    margin-left: 265px;
+    margin-right: 265px;
+    margin-bottom: 152px;
+    margin-top: 225px;
+}
+
+.nav2 h1{
+    font-family: 'raleway', sans-serif;
+    font-size: 65px;
+    font-weight:bold;
+    text-align: center;
+    /* margin: 309px 268px 0px 268px; */
+}
+
+
+
+.btn2{
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-top: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 36px;
+}
+
+.action{
+    display: flex;
+    justify-content:space-around;
+    height: 328px;
+    margin: 115px 160px 142px;
+    vertical-align: center;
+    margin-bottom: 200px;
+    
+}
+
+.action h3{
+
+    font-family: 'raleway',sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+
+}
+
+.action p{
+    font-family: 'raleway', sans-serif;
+    font-size: 24px;
+    font-weight:400;
+    color:#9A9BA5;
+}
+
+.action-text{
+    width: 517px;
+    height:203;
+    padding: 70px;
+    margin-bottom: 20px;
+}
+
+/* COPY TILL THIS 10.57 */
+
+.btn3{
+    padding: 12px 36px;
+    font-family: 'raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 23px;
+}
+
+.action img{
+    border-radius: 45px;
+    margin-top: 70px;
+}
+
+.productive{
+    display: flex;
+    gap: 158px;
+   justify-content: space-around;
+}
+
+.sec2{
+    width: 960px;
+    height: 300px;
+    border: 1px solid pink;
+    background-color: #E5E7FF;
+    /* margin: 0 auto; */
+    text-align: center;
+    border-radius: 24px;
+    padding: 80px 50px;
+    margin-left: 140px;
+    margin-right: 160px;
+    
+}
+ .sec2, h3{
+    font-family: 'raleway', sans-serif;
+    font-size: 38px;
+    font-weight: bold; 
+
+} 
+
+
+
+.productive-1, h1 {
+    font-family:'inter', sans-serif;
+    font-size:80;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: 0px;
+}
+.productive-1 p{
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    color: #737480;
+    margin-bottom: 200px;
+}
+
+.productive-2, h1 {
+    font-family:'inter', sans-serif;
+    font-size:80;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: 0px;
+}
+.productive-2 p{
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    color: #737480;
+    margin-bottom: 200px;
+}
+.productive-3, h1 {
+    font-family:'inter', sans-serif;
+    font-size:80;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: 0px;
+}
+.productive-3 p{
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    color: #737480;
+    margin-bottom: 200px;
+}
+
+.mini-icon{
+    display: flex;
+    gap: 10px;
+   
+}
+
+.mini-icon h5{
+    margin-top: 50px;
+}
+
+.card{
+    width: 365px;
+    height: 245px;
+    background-color:#FFFFFF;
+    padding: 24px 24px;
+    border-radius: 14px;
+    
+}
+.card-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 24px 24px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.card-section{
+    text-align: center;
+
+}
+
+.card img{
+    float: left;
+}
+
+.card-section h3{
+    font-family: 'raleway', sans-serif;
+    font-size: 42;
+    font-weight: bold;
+    margin-top: 200px;
+}
+
+.card h5{
+    font-family: 'inter', sans-serif;
+    font-size: 24;
+    font-weight: bold;
+    color: 1E1E1E;
+    text-align: left;
+    
+}
+
+.card p{
+    color: #1E1E1E;
+    font-size:large;
+    text-align: left;
+}
+
+input[type=text]{
+   height: 50px;
+   width: 250px;
+   border-radius: 5px;
+
+}
+
+input[type=email]{
+   height: 50px;
+   width: 250px;
+   border-radius: 5px;
+
+}
+
+
+
+.container{
+    display: flex;
+    /* gap: 115px; */
+    justify-content:space-between;
+    align-items: center;
+    width: 1140px;
+    height: 630px;
+    margin: 0 auto;
+    background-color: #FAFCFF;
+    margin-top: 135px;
+}
+
+textarea{
+    border-radius: 5px;
+}
+
+.container-text h1{
+    font-family: 'raleway', sans-serif;
+    font-size:6em;
+    font-weight: bold;
+    color: #000000;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: left;
+    margin-right: 200px;
+}
+
+
+
+
+.bttn{
+      color: white;
+      background-color: #4E47FF;
+      border: none;
+      border-radius: 5px;
+      font-family: 'raleway', sans-serif;
+}
+.bttn:hover{
+    cursor: pointer;
+    color: black;
+    background-color: orange;
+}
+
+
+
+
+.touchp-container{
+    display: flex;
+    width: 1140px;
+    height: 500px;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    border: 1px solid black;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: #FAFCFF;
+}
+.formp-container{
+    /* padding: 70px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 450px;
+    font-family: 'inter', sans-serif;
+    font-size: 18px;
+    
+}
+
+
+
+.formp-container input[type=email]{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 5px; 
+    box-shadow: 20px black;
+}
+
+.formp-container input[type=text]{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 5px; 
+   
+}
+
+.formp-container textarea{
+    width: 350px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FDFEFF;
+    padding: 10px;
+   
+}
+
+.formp-container button{
+    width: 350px;
+    height: 50px;
+    font-size:16px;
+    font-weight: bold;
+}
+
+.textp-container{
+    font-family: 'raleway', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    padding: 30px;
+}         
+
+/* section 7 footer styles */
+.footer li{
+    list-style: none;
+    display:inline;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.footer ul a{
+    text-decoration: none;
+}
+
+.footer{
+
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-bottom: 103px;
+    background-color: #FFFFFF;
+}
+
+footer h1{
+    text-align: center;
+    font-family: 'inter', sans-serif;
+    font-size: 100px;
+    color: #4E47FF;
+    margin-bottom: 0px;
+    margin-top: 105px;
+}
+
+footer p{
+    text-align:center;
+    color: #8987A1;
+    margin-top: 8px;
+    font-size: 1em;
+}
+/* body{
+    background-color: #F5F8FF;
+}
+
+/* up here remove body background */
+/* here added the background color   */
+
+.focus-container{
+    width: 1140px;
+    height: 690px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-top: 40px;
+
+.focus-text {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.focus-text h1{
+    font-family: 'raleway', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.focus-text p{
+    color: #525252;
+    font-family: 'raleway', sans-serif;
+}
+
+.focus-text .btn{
+    width: 195px;
+    height: 40px;
+    padding: 10px;
+    font-family: 'raleway', sans-serif;
+    font-size: 15px;
+}
+/* general settings for button or btn */
+
+/* .btn{
+      color: white;
+      background-color: #4E47FF;
+      border: none;
+      border-radius: 5px;
+      font-family: 'raleway', sans-serif;
+}
+.btn:hover{
+    cursor: pointer;
+    color: black;
+    background-color: orange;
+} */
+
+/* general settings for button */
+
+
+.focus-image img{              
+   margin-left: 180px;
+   margin-right: 350px;
+   width: 800px;
+   height: 350px;
+   border-radius: 50px;
+   margin-top: 50px;
+}
+
+
+
+
